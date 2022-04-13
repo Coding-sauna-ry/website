@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "coding-sauna-website",
-  "author": "Juubes",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
