@@ -3,19 +3,22 @@ import { FC } from "react";
 import clsx from "clsx";
 
 type HeadingProps = {
-  size: 1 | 2 | 3;
+  size: "1" | "2" | "3";
   color: "primary" | "secondary";
 };
 
 const Heading: FC<HeadingProps> = (props) => {
   let sizeClasses;
   switch (props.size) {
-    case 1:
+    case "1":
       sizeClasses = "text-3xl";
-    case 2:
+      break;
+    case "2":
       sizeClasses = "text-2xl";
-    case 2:
+      break;
+    case "3":
       sizeClasses = "text-xl";
+      break;
   }
 
   let colorClasses;
