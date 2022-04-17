@@ -22,8 +22,10 @@ const Heading: FC<HeadingProps> = (props) => {
   switch (props.color) {
     case "primary":
       colorClasses = "text-black";
+      break;
     case "secondary":
       colorClasses = "text-white";
+      break;
   }
 
   return <h1 className={clsx(sizeClasses, colorClasses)}>{props.children}</h1>;
