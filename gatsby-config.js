@@ -1,6 +1,4 @@
-import type { GatsbyConfig } from "gatsby";
-
-const config: GatsbyConfig = {
+const config = {
   siteMetadata: {
     title: `Coding sauna`,
     siteUrl: `https://codingsauna.fi`,
@@ -33,4 +31,4 @@ const config: GatsbyConfig = {
   ],
 };
 
-export default config;
+module.exports = config;
