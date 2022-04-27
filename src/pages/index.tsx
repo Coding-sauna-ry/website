@@ -4,11 +4,12 @@ import Heading from "../atoms/Heading";
 import Paragraph from "../atoms/Paragraph";
 
 import "../global-styles.css";
+import ProfileCard from "../molecules/ProfileCard";
 
 function Index() {
   return (
     <>
-      <Heading color="primary" size="2">
+      <Heading color="primary">
         Hello world
       </Heading>
 
@@ -20,6 +21,8 @@ function Index() {
         ut proident ea nostrud non sunt veniam esse et culpa cillum ex enim. Qui
         voluptate non id proident dolore occaecat ea eu ea consequat ipsum.
       </Paragraph>
+
+      <ProfileCard  email="hello@world.com" fullName="Helloworld"/>
     </>
   );
 }
